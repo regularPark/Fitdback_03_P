@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+ Copyright 2014 The Android Open Source Project
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#67AED1">
+
+    <com.fitdback.posedetection.AutoFitFrameLayout
+        android:id="@+id/layout_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+
+        <com.fitdback.posedetection.AutoFitTextureView
+            android:id="@+id/texture"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical" />
+
+        <com.fitdback.posedetection.DrawView
+            android:id="@+id/drawview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical" />
+
+        <!--<com.mikhaellopez.circularprogressbar.CircularProgressBar
+            android:id="@+id/cntBar"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="350dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="right"
+            app:cpb_background_progressbar_color="#b6bbd8"
+            app:cpb_background_progressbar_width="5dp"
+            app:cpb_progress_direction="to_right"
+            app:cpb_progressbar_color="#3f51b5"
+            app:cpb_progressbar_width="10dp"
+            app:cpb_round_border="false" />-->
+
+
+
+    </com.fitdback.posedetection.AutoFitFrameLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="#1c000000"
+        android:orientation="vertical"
+        android:paddingStart="10dp"
+        android:paddingEnd="0dp">
+
+        <!--      <TextView-->
+        <!--          android:layout_width="wrap_content"-->
+        <!--          android:layout_height="wrap_content"-->
+        <!--          android:text="top"-->
+        <!--          android:textColor="@color/color_top"/>-->
+
+        <!--      <TextView-->
+        <!--          android:layout_width="wrap_content"-->
+        <!--          android:layout_height="wrap_content"-->
+        <!--          android:text="@string/neck"-->
+        <!--          android:textColor="@color/color_neck"/>-->
+
+        <!--      <TextView-->
+        <!--          android:layout_width="wrap_content"-->
+        <!--          android:layout_height="wrap_content"-->
+        <!--          android:text="@string/l_shoulder"-->
+        <!--          android:textColor="@color/color_l_shoulder"/>-->
+
+        <!--      <TextView-->
+        <!--          android:layout_width="wrap_content"-->
+        <!--          android:layout_height="wrap_content"-->
+        <!--          android:text="@string/l_elbow"-->
+        <!--          android:textColor="@color/color_l_elbow"/>-->
+
+        <!--      <TextView-->
+        <!--          android:layout_width="wrap_content"-->
+        <!--          android:layout_height="wrap_content"-->
+        <!--          android:text="@string/l_wrist"-->
+        <!--          android:textColor="@color/color_l_wrist"/>-->
+
+        <!--      <TextView-->
+        <!--          android:layout_width="wrap_content"-->
+        <!--          android:layout_height="wrap_content"-->
+        <!--          android:text="@string/l_hip"-->
+        <!--          android:textColor="@color/color_l_hip"/>-->
+
+        <!--      <TextView-->
+        <!--          android:layout_width="wrap_content"-->
+        <!--          android:layout_height="wrap_content"-->
+        <!--          android:text="@string/l_knee"-->
+        <!--          android:textColor="@color/color_l_knee"/>-->
+
+        <!--      <TextView-->
+        <!--          android:layout_width="wrap_content"-->
+        <!--          android:layout_height="wrap_content"-->
+        <!--          android:text="@string/l_ankle"-->
+        <!--          android:textColor="@color/color_l_ankle"/>-->
+
+        <!--      <TextView-->
+        <!--          android:layout_width="wrap_content"-->
+        <!--          android:layout_height="wrap_content"-->
+        <!--          android:text="@string/r_shoulder"-->
+        <!--          android:textColor="@color/color_r_shoulder"/>-->
+        <!--      <TextView-->
+        <!--          android:layout_width="wrap_content"-->
+        <!--          android:layout_height="wrap_content"-->
+        <!--          android:text="@string/r_elbow"-->
+        <!--          android:textColor="@color/color_r_elbow"/>-->
+
+        <!--      <TextView-->
+        <!--          android:layout_width="wrap_content"-->
+        <!--          android:layout_height="wrap_content"-->
+        <!--          android:text="@string/r_wrist"-->
+        <!--          android:textColor="@color/color_r_wrist"/>-->
+
+        <!--      <TextView-->
+        <!--          android:layout_width="wrap_content"-->
+        <!--          android:layout_height="wrap_content"-->
+        <!--          android:text="@string/r_hip"-->
+        <!--          android:textColor="@color/color_r_hip"/>-->
+        <!--      <TextView-->
+        <!--          android:layout_width="wrap_content"-->
+        <!--          android:layout_height="wrap_content"-->
+        <!--          android:text="@string/r_knee"-->
+        <!--          android:textColor="@color/color_r_knee"/>-->
+
+        <!--      <TextView-->
+        <!--          android:layout_width="wrap_content"-->
+        <!--          android:layout_height="wrap_content"-->
+        <!--          android:text="@string/r_ankle"-->
+        <!--          android:textColor="@color/color_r_ankle"/>-->
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="800dp"
+        android:gravity="center"
+        android:textColor="#67AED1"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        tools:text="latency" />
+
+
+    <TextView
+        android:id="@+id/cnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginRight="20dp"
+        android:gravity="right"
+        android:textColor="#faff0d"
+        android:textSize="30sp"
+        tools:text="Count"
+        />
+
+
+<!--    CPU / GPU 활성 버튼 -->
+
+<!--    <RadioGroup-->
+<!--        android:id="@+id/radiogroup"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="bottom"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/radio_gpu"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:checked="true"-->
+<!--            android:text="GPU"-->
+<!--            android:textColor="@color/black" />-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/radio_cpu"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="CPU"-->
+<!--            android:textColor="@color/black" />-->
+<!--    </RadioGroup>-->
+
+</FrameLayout>

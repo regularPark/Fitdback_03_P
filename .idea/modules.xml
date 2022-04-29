@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/capstoneDesign.iml" filepath="$PROJECT_DIR$/.idea/modules/capstoneDesign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/capstoneDesign.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/capstoneDesign.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/openCVLibrary341/capstoneDesign.openCVLibrary341.iml" filepath="$PROJECT_DIR$/.idea/modules/openCVLibrary341/capstoneDesign.openCVLibrary341.iml" />
+    </modules>
+  </component>
+</project>

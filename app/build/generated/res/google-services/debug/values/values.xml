@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">438564157104-c61t516s3j8k1ecf57b2vm4louju0up5.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">438564157104</string>
+    <string name="google_api_key" translatable="false">AIzaSyCX7m_cEf8B-F7yDsuXivp4wgt5iwRo1yw</string>
+    <string name="google_app_id" translatable="false">1:438564157104:android:145c7d3ae09010fc412d75</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCX7m_cEf8B-F7yDsuXivp4wgt5iwRo1yw</string>
+    <string name="google_storage_bucket" translatable="false">fitdback-03.appspot.com</string>
+    <string name="project_id" translatable="false">fitdback-03</string>
+</resources>
